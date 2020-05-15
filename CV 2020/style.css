@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'kaushan_scriptregular';
+    src: url('kaushanscript-regular-webfont.woff2') format('woff2'),
+         url('kaushanscript-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: 'Trebuchet MT', Arial, serif;
+	font-weight: normal;
+}
+.container{
+	background: url('Img/5021.png')repeat;
+	max-width: 1190px;
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+	border: 2px solid grey;
+}
+.row{
+	display: flex;
+	height:100%;
+}
+/*--------Left Side-------*/
+.Left_Column{
+	flex-direction: column;
+	width: 30%;
+	background-color: rgb(111, 210, 255);
+}
+aside{
+	display: flex;
+	justify-content: center;
+	padding-top: 50px;
+	width: 100%;
+}
+img{
+	border-radius: 50%;
+	border: 1px solid #EBF3A6;
+	box-shadow: 3px 2px 0 #A6A0A3;
+	opacity: 1;
+}
+.Contact{
+	font-family: 'alex_brushregular';
+	width: 100%;
+	height: 40px;
+	padding-bottom: 12px;
+	background-color: #527087;
+}
+.Left_Column h3{
+	display: flex;
+	color: rgb(111, 210, 255);
+	justify-content: center;
+	text-transform: uppercase;
+}
+main aside{
+padding-top: 0;
+}
+main aside p{
+	text-align: justify;
+	font-weight: bold;
+	margin: 6px;
+/*	line-height: 6px;*/
+	padding-left: 54px;
+}
+.Moi{
+	display:flex;
+	flex-direction: column;
+	font-family: 'alex_brushregular';
+	width: 100%;
+	height: 40px;
+	padding-bottom: 12px;
+	background-color: #527087;
+}
+.Moi article{
+	flex-direction: column;
+	margin-left: 15px;
+	transform:  rotate(3deg);
+}
+.Moi article p{
+	padding: 15px;
+	margin-right: 10px;
+	width: 180px;
+	height: 220px;
+	font-family: 'kaushan_scriptregular';
+	font-size: 1.1em;
+	font-style: italic;
+	text-shadow: 0 1px 0 #555;
+	border: 0.5px solid #555;
+	border-radius: 5px;
+	box-shadow: 3px 5px 0 #A6A0A3;
+	opacity: 0.8;
+}
+.story{
+	
+}
+/*----------Right Side--------*/
+.Right_Column{
+	flex-direction: column;
+	width: 70%;
+	padding-left: 50px;
+	margin-right: 30px;
+}
+section .MF{
+	width: 70px;
+	height: 70px;
+	margin: 15px 0 15px 15px; 
+}
+section h1{
+	font-family: 'alex_brushregular';
+	font-size: 3em;
+	padding: 6px 0 0 40px;
+	color: #241827;
+}
+section h2{
+	font-family: 'kaushan_scriptregular';
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.8em;
+	padding-left: 55px;
+	color:#527087;
+}
+span{
+	border-bottom: 3px solid rgb(111, 210, 255);
+}
+.Formations, .Experiences, .Compétences, .Recommandations{
+		font-family: 'alex_brushregular';
+}
+main h2{
+	text-decoration: underline;
+}
+h2 .fas{
+	font-size: larger;
+	color: rgb(111, 210, 255);
+	padding-right: 10px;
+}
+p .far, .fas{
+	color: rgb(111, 210, 255);
+	padding-right: 10px;
+}
+p .fas{
+ 	font-size: small;
+}
+main h3{
+	font-style: italic;
+	color:#527087;
+		
+}
+footer{
+	display:flex;
+	flex-direction: column;
+	width:28%;
+	height: 40px;
+	padding-bottom: 12px;
+	background-color: rgb(111, 210, 255);
+}
+footer .fal, .fas, .far{
+font-size: larger;
+color: #527087; ;
+}
