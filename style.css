@@ -258,7 +258,7 @@ main h3{
 		padding-top: 0;
 	}
 	section h1, h2{
-		font-size: 1.5em;
+		font-size: 1.9em;
 	}
 	section h2{
 		font-size: 1.5em;
@@ -268,14 +268,17 @@ main h3{
 	}
 	.Contact p{
 	text-align: center;
+	padding-left: 0;
 	}
 	.story{
 		width: 220px;
 	}
 	.Loisirs{
 	width: auto;
+	margin-top: auto;
 	margin-bottom: 140px;
 	}
 	
 }
-/*@media only screen and (max-width: 768px){*/
+/*@media only screen and (max-width: 768px){}*/
+
