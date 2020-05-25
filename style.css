@@ -88,6 +88,10 @@ main aside{
 	margin: 10px;
 	padding-left: 30px;
 }
+.Contact .fas{
+	color: #527087;
+	font-size: larger;
+}
 .Moi{
 	margin-top: 303px;
 	font-family: 'alex_brushregular';
