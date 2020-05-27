@@ -110,6 +110,9 @@ main aside{
 	justify-content: center;
 	text-transform: uppercase;
 }
+.story:before{
+  content : "\01F4CC";
+}
 .story{
 	background: url('Img/5021.png');
 	width: 220px;
