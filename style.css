@@ -107,7 +107,7 @@ main aside{
 	font-family: 'alex_brushregular';
 	width: 100%;
 	height: 40px;
-	margin-top: 230px;
+	margin-top: 610px;
 }
 .Loisirs h3{
 	display: flex;
@@ -216,8 +216,8 @@ a:hover{
 	margin: auto;
 }
 main article{
-	padding-left: 50px;
-	padding-right: 50px;
+	padding: 0 50px 0 50px;
+	
 }
 main h2{
 	border-bottom: 2px solid rgb(111, 210, 255);
