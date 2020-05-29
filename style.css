@@ -86,7 +86,12 @@ main aside{
 .Contact p{
 	font-weight: bold;
 	margin: 10px;
-	padding-left: 30px;
+	padding-top: 9px;
+	padding-left: 60px;
+}
+.Contact a:hover{
+	text-decoration: none;
+	color: black;
 }
 .Contact .fas{
 	color: #527087;
