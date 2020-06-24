@@ -238,7 +238,8 @@ main h3{
 	font-style: italic;
 	color: #527087;
 }
-/*=============*/
+
+/*==============*/
 @media (max-width: 1024px){
 	.row{
 	flex-direction: column;
@@ -294,5 +295,15 @@ main h3{
 }
 ==========
 
-
+@media (max-width: 479px){
+	.Right_Column .Formations, .Expériences, .Compétences, .Recommandations{
+		padding:0;
+	}
+	.Right_Column h2{
+		text-align:center;
+	}
+	.Right_Column .text{
+		padding:0;
+	}
+}
 
